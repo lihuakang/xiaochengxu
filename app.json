@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/img/img",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/demo01/demo01"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#F97473",
+    "navigationBarTitleText": "您的爱心餐",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/social_wechat.png",
+      "selectedIconPath": "icon/social_wechat (1).png"
+    },{
+      "pagePath": "pages/img/img",
+      "text": "图片管理",
+      "iconPath": "icon/计时炸弹.png",
+      "selectedIconPath": "icon/计时炸弹.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "个人中心",
+      "iconPath": "icon/alipay.png",
+      "selectedIconPath": "icon/alipay (1).png"
+    },{
+      "pagePath": "pages/search/search",
+      "text": "查找",
+      "iconPath": "icon/taobao.png",
+      "selectedIconPath": "icon/taobao (1).png"
+    }],
+    "color":"0094ff",
+    "selectedColor": "ff9400",
+    "backgroundColor": "#454545"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
