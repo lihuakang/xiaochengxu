@@ -9,9 +9,25 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     name:["微信","支付宝"],
+    list:[{
+    id:1,
+    name:"唐僧"    
+    },{
+      id:2,
+      name:"猪八戒"
+    },
+    {
+      id:3,
+      name:"孙悟空"
+    }
+  ],
     canIUse: wx.canIUse('button.open-type.getUserInfo')
     
   },
+  getUser:function(e){
+    console.log(e);
+  }
+  ,
   changeName:function(e){
     this.setData({
       name:["MINA","哈哈"]

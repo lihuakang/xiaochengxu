@@ -6,12 +6,19 @@
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       <text>欢迎使用小程序</text>
-      <map bindmarkertap="markertap"></map>
-      <view wx:for="{{name}}">Hello{{item}}!</view>
+      <map bindmarkertap="markertap" enable-traffic="true"></map>
+      <view wx:for="{{name}}" wx:key="*this">Hello{{item}}!</view>
       <button bindtap="changeName">Check me!</button>
     </block>
   </view>
+  <navigator url="/pages/demo01/demo01">轮播图</navigator>
+  <navigator open-type="switchTab" url="/pages/img/img">跳转到tarbar</navigator>
+  <button type="warn" open-type="contact">默认按钮</button>
+  <button type="warn" open-type="share">分享朋友</button>
+  <button open-type="getUserInfo" bindgetuserinfo="getUser">获取用户信息</button>
+  <button open-type="openSetting">授权</button>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="*this">{{index+1+item.name}}</view>
 </view>

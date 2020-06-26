@@ -1,2 +1,12 @@
-<!--pages/img/img.wxml-->
-<text>pages/img/img.wxml</text>
+<swiper autoplay="true" circular="true">
+<swiper-item>
+<image src="https://img13.360buyimg.com/da/s1180x940_jfs/t1/129630/25/3052/91356/5ef4103fE8e05aef9/86dfc7624492508f.jpg"/>
+</swiper-item>
+<swiper-item>
+<image src="https://img12.360buyimg.com/da/s1180x940_jfs/t1/119017/35/10903/81166/5ef0d63cE45ee2d65/408e35b742f38022.jpg"/>
+</swiper-item>
+<swiper-item>
+<image src="https://imgcps.jd.com/ling/2922989/6aOf5ZOB54m55Lqn/6aOf5ZOB6LaF5YC854m55Lu3/p-5bd8253082acdd181d02fa6d/1c3d91cd.jpg"/>
+</swiper-item>
+</swiper>
+<audio src="http://ws.stream.qqmusic.qq.com/C400001o3WVc2nhtEi.m4a?guid=9698080809&vkey=DE1A6C0755C56518F57858A5C42A070416A4EE0FA71A8A003FF9182ED5DDA85BBE0F622EB787DEBD1C9DD0BF259B74557FEE09660B35F48C&uin=98&fromtag=66" author="李华康" loop="true" controls="true" poster="true" name="送给大花子的歌"></audio>

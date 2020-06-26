@@ -5,12 +5,13 @@
     "pages/mine/mine",
     "pages/search/search",
     "pages/logs/logs",
-    "pages/demo01/demo01"
+    "pages/demo01/demo01",
+    "pages/demo05/demo05"
   ],
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#F97473",
-    "navigationBarTitleText": "您的爱心餐",
+    "navigationBarTitleText": "我的小程序",
     "navigationBarTextStyle":"white",
     "backgroundColor":"white",
     "enablePullDownRefresh":true
